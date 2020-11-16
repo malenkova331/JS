@@ -1,0 +1,66 @@
+body {
+    background-color: #202020;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.page {
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    padding: 25px;
+    color: #ffffff;
+}
+
+.classic {
+    background-color: #D0D002;
+}
+.pro-version {
+    background-color: #C7007D;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 5 0 20px 0;
+}
+
+.button {
+    padding: 11px 21px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #7A7A00;
+    border: 1px solid #7A7A00;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.button:hover {
+    background: #555500;
+}
+.button:focus {
+    background: #424200;
+}
+.button-o {
+    background: transparent;
+}
+.button-o:hover {
+    background: #7A7A00;
+}
+.button-o:focus {
+    background: #555500
+}
+
+.input {
+    padding: 11px 90px 11px 20px;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    margin-bottom: 6px;
+}
